@@ -1,0 +1,167 @@
+@import 'app.css';
+
+
+
+/*body {
+    background-color: lightgray !important;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: #999;
+}*/
+/*desc-stack */
+.desc-stack a{
+    text-decoration:none;
+}
+
+.desc-stack h2{
+        text-align: center;
+} 
+.mentee{
+    padding:2px;
+    box-shadow: 5px 5px 5px grey;
+    background-color: #00bfa5;
+    float: left; 
+    width: 30%; 
+    margin-left: 30px;
+}
+.mentee p{
+    padding-left: 5px;
+}
+.mentor{
+    box-shadow: 5px 5px 5px grey;
+    background-color:#00bfa5;
+    padding: 2px;
+    display: inline-block;
+    width: 30%; 
+    margin-left: 30px;
+}
+.mentor p{
+    padding-left:5px;
+}
+.sponsor{
+    box-shadow: 5px 5px 5px grey;
+    background-color: #00bfa5;
+    padding: 2px;
+    float: right;
+    width: 30%; 
+    margin-right: 30px;
+}
+/*sponsor-stack*/
+.sponsorStack {
+    margin-top: 150px;
+    margin-bottom: 60x;
+    text-align: center;
+}
+.sponsors a img{
+    
+    margin-left: 20px;
+    
+
+
+}
+
+hr {
+    border-bottom-color: #999
+
+}
+
+/* Links */
+.is-link {
+    text-decoration: none;
+}
+a.is-link:hover {
+    font-weight: bold;
+}
+
+/* Form Controls */
+.btn {
+    text-align:center;
+    border: none;
+    padding: 15px 32px;
+    color: white;
+    font-size:16px;
+    border-radius:.3rem;
+    cursor: pointer;
+}
+
+.is-full {
+    font-size: 16px !important;
+    width: 100% !important;
+    padding: 10px 20px;
+    margin: 8px 0;
+    border: 2px solid transparent;
+}
+
+.is-input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+.is-label {
+    display: block;
+    font-weight: bold;
+}
+
+/* Alerts */
+.alert {
+    border: 1px solid transparent;
+    border-radius: 4px;
+    padding: 20px;
+    margin-bottom: 15px;
+    color: #fff;
+}
+.has-close {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.has-close:hover {
+    color: black;
+}
+
+/* CheckBox */
+input[type=checkbox] + label {
+    display: block;
+    margin: 0.2em;
+    cursor: pointer;
+    padding: 0.2em;
+  }
+  
+  input[type=checkbox] {
+    display: none;
+  }
+  
+  input[type=checkbox] + label:before {
+    content: "\2714";
+    border: 0.1em solid MediumSeaGreen;
+    border-radius: 0.2em;
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    padding-left: 0.2em;
+    padding-bottom: 0.3em;
+    margin-right: 8px;
+    vertical-align: bottom;
+    color: transparent;
+    transition: .2s;
+  }
+  
+  input[type=checkbox] + label:active:before {
+    transform: scale(0);
+  }
+  
+  input[type=checkbox]:checked + label:before {
+    background-color: MediumSeaGreen;
+    border-color: MediumSeaGreen;
+    color: #fff;
+  }
+  
